@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | Pixie Painting</title>
+
+  <!-- Caveat Brush -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="about.css" />
+</head>
+
+<body>
+  <!-- HEADER (same as index) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">
+          <img src="pics/icon.png" alt="Company logo" />
+        </span>
+        <span class="brand-text">PIXIE PAINTING</span>
+      </a>
+
+      <div class="header-phone">
+        +44 7460 473336
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="burger" aria-hidden="true">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </span>
+        </button>
+
+        <ul id="navMenu" class="nav-menu">
+          <li><a class="nav-link is-active" href="about.html">About</a></li>
+          <li><a class="nav-link" href="services.html">Services</a></li>
+          <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link nav-cta" href="contact.html">Free Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ABOUT HERO -->
+    <section class="about-hero">
+      <div class="container about-hero-inner">
+        <div class="about-hero-copy">
+          <h1 class="about-title">About Pixie Painting</h1>
+          <p class="about-subtitle">
+            Pixie Painting is a small, family-style painting and decorating business based in Dorset and Hampshire, dedicated to transforming homes and workspaces with care, precision, and a touch of magic.
+          </p>
+
+          <div class="about-actions">
+            <a class="btn primary" href="contact.html">Request a Quote</a>
+            <a class="btn" href="gallery.html">See Our Work</a>
+          </div>
+        </div>
+
+        <div class="about-hero-media">
+          <img src="pics/interior.jpg" alt="Painter" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY + VALUES -->
+    <section class="about-content">
+      <div class="container about-grid">
+        <article class="about-card">
+          <h2>Our Story</h2>
+          <p>
+            Pixie Painting was created by Aysel, a highly skilled and experienced painter and decorator with a keen eye for detail and a genuine love for what she does. After years working in the industry, Aysel decided to establish her own business so she could offer clients the personal attention and quality craftsmanship that bigger companies often overlook.
+          </p>
+          <p>
+            The name “Pixie” reflects our philosophy: we bring a little sparkle and transformation to every project. Like a pixie waving a wand, we help tired or dated spaces feel brand new — refreshed, vibrant, and full of life.
+          </p>
+        </article>
+
+        <article class="about-card">
+          <h2>What We Care About</h2>
+          <ul class="about-list">
+            <li><strong>Prep first:</strong> sanding, filling, masking and protecting surfaces.</li>
+            <li><strong>Clean work:</strong> tidy each day, minimal disruption, respect your space.</li>
+            <li><strong>Quality finish:</strong> good materials + careful technique = long lasting results.</li>
+            <li><strong>Clear communication:</strong> honest quotes, updates, and realistic timelines.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+
+
+
+    <!-- WHY CHOOSE US (simple 3 cards) -->
+    <section class="about-why">
+      <div class="container">
+        <h2 class="section-title">Why choose us</h2>
+
+        <div class="why-grid">
+          <article class="why-card">
+            <div class="why-icon">1</div>
+            <h3>Professional finish</h3>
+            <p>We focus on clean edges, smooth walls and a result that looks premium.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon">2</div>
+            <h3>Friendly and reliable</h3>
+            <p>We show up on time, communicate clearly, and keep your home respected.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon">3</div>
+            <h3>Tidy process</h3>
+            <p>We protect floors and furniture, and we clean up properly after the job.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<!-- Instagram -->
+    <section class="instagram-section">
+  <div class="container">
+    <h2 class="section-title">Follow Us on Instagram</h2>
+
+    <div class="instagram-embed">
+      <blockquote 
+        class="instagram-media" 
+        data-instgrm-permalink="https://www.instagram.com/pixiepainting_" 
+        data-instgrm-version="14">
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CTA STRIP -->
+    <section class="about-cta">
+      <div class="container cta-inner">
+        <div class="cta-copy">
+          <h2>Ready to refresh your space?</h2>
+          <p>Send a quick message and we’ll come back to you with a clear quote.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn primary" href="contact.html">Free Quote</a>
+          <a class="btn" href="gallery.html">View Gallery</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    
+    <div class="footer-content">
+      
+      <!-- Left: Company Info -->
+      <div class="footer-col">
+        <p class="footer-copyright">
+          © <span id="year"></span> Pixie Painting Ltd.<br>
+          <small>All rights reserved.</small>
+        </p>
+      </div>
+
+      <!-- Center: Quick Links -->
+      <div class="footer-col">
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Right: Social only (cleaner) -->
+      <div class="footer-col">
+        <div class="social-icons">
+          <a href="https://instagram.com/pixiepainting_" target="_blank" rel="noopener" aria-label="Follow us on Instagram" class="social-link">
+            <i class="fa-brands fa-instagram" style="color: rgb(241, 64, 108); font-size: 1.65rem;"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Checkatrade Widget -->
+    <div class="checkatrade-widget">
+      <script>window._checkatradeConfig = {"companyId":1177907,"uniqueName":"PixiePainting","theme":"white"};</script>
+      <script src="https://www.checkatrade.com/static/js/widget.js"></script>
+    </div>
+
+    <!-- Developer Credit - Now at the very bottom -->
+    <div class="footer-developer">
+      <p class="developed-by">
+        Website by 
+        <a href="https://www.linkedin.com/in/georgi-asenov-1207501a7/" target="_blank" rel="noopener">Georgi Asenov</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+  <script src="about.js"></script>
+  <script async src="https://www.instagram.com/embed.js"></script>
+
+</body>
+</html>

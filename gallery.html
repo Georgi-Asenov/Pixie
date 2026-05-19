@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery | Pixie Painting</title>
+
+  <!-- Font: Caveat Brush (same family you already use) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+
+<body>
+  <!-- HEADER (kept as in index.html) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">
+          <img src="pics/icon.png" alt="Company logo" />
+        </span>
+        <span class="brand-text">PIXIE PAINTING</span>
+      </a>
+
+      <div class="header-phone">
+        +44 7460 473336
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="burger" aria-hidden="true">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </span>
+        </button>
+
+        <ul id="navMenu" class="nav-menu">
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="services.html">Services</a></li>
+          <li><a class="nav-link is-active" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link nav-cta" href="contact.html">Free Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="gallery-hero">
+      <div class="container">
+        <h1 class="gallery-title">Gallery</h1>
+        <p class="gallery-subtitle">
+          A selection of recent work — tap any image to view it larger.
+        </p>
+
+        <div class="gallery-controls" role="toolbar" aria-label="Gallery filters">
+          <button class="filter-btn is-active" type="button" data-filter="all">All</button>
+          <button class="filter-btn" type="button" data-filter="interior">Interior</button>
+          <button class="filter-btn" type="button" data-filter="exterior">Exterior</button>
+          <button class="filter-btn" type="button" data-filter="before-after">Before & After</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Replace src paths with your real images -->
+
+          <!-- Before and After Images -->
+           <figure class="gallery-item" data-category="before-after">
+            <img src="pics/before-after/1.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="before-after">
+            <img src="pics/before-after/2.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="before-after">
+            <img src="pics/before-after/3.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="before-after">
+            <img src="pics/before-after/4.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="before-after">
+            <img src="pics/before-after/5.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="before-after">
+            <img src="pics/before-after/6.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+
+          <!-- Interior Images -->
+            <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/1.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+           <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/2.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+           <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/4.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/5.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/6.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/7.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/8.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/9.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/10.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/11.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/12.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/13.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/14.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/15.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/16.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/17.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/18.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/19.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/20.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/21.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/22.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/23.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/24.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/25.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="interior">
+            <img src="pics/Interior/26.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <!-- Exterior Images -->
+
+          <figure class="gallery-item" data-category="exterior">
+            <img src="pics/Exterior/1.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="exterior">
+            <img src="pics/Exterior/2.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="exterior">
+            <img src="pics/Exterior/3.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="exterior">
+            <img src="pics/Exterior/4.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="exterior">
+            <img src="pics/Exterior/5.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+          <figure class="gallery-item" data-category="exterior">
+            <img src="pics/Exterior/6.jpeg" alt="Interior painting project" loading="lazy">
+          </figure>
+
+      
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="lightbox-backdrop" data-close></div>
+
+      <div class="lightbox-panel" role="dialog" aria-modal="true" aria-label="Image preview">
+        <button class="lightbox-close" type="button" aria-label="Close preview" data-close>✕</button>
+        <img class="lightbox-img" id="lightboxImg" alt="">
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    
+    <div class="footer-content">
+      
+      <!-- Left: Company Info -->
+      <div class="footer-col">
+        <p class="footer-copyright">
+          © <span id="year"></span> Pixie Painting Ltd.<br>
+          <small>All rights reserved.</small>
+        </p>
+      </div>
+
+      <!-- Center: Quick Links -->
+      <div class="footer-col">
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Right: Social only (cleaner) -->
+      <div class="footer-col">
+        <div class="social-icons">
+          <a href="https://instagram.com/pixiepainting_" target="_blank" rel="noopener" aria-label="Follow us on Instagram" class="social-link">
+            <i class="fa-brands fa-instagram" style="color: rgb(241, 64, 108); font-size: 1.65rem;"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Checkatrade Widget -->
+    <div class="checkatrade-widget">
+      <script>window._checkatradeConfig = {"companyId":1177907,"uniqueName":"PixiePainting","theme":"white"};</script>
+      <script src="https://www.checkatrade.com/static/js/widget.js"></script>
+    </div>
+
+    <!-- Developer Credit - Now at the very bottom -->
+    <div class="footer-developer">
+      <p class="developed-by">
+        Website by 
+        <a href="https://www.linkedin.com/in/georgi-asenov-1207501a7/" target="_blank" rel="noopener">Georgi Asenov</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

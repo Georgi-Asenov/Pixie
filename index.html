@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">
+          <img src="pics/icon.png" alt="Company logo" />
+        </span>
+        <span class="brand-text">PIXIE PAINTING</span>
+      </a>
+
+      <div class="header-phone">
+        +44 7460 473336
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="burger" aria-hidden="true">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </span>
+        </button>
+
+        <ul id="navMenu" class="nav-menu">
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="services.html">Services</a></li>
+          <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link nav-cta" href="contact.html">Free Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+
+          <!-- Write your title normally. JS will split into 3-word lines. -->
+          <h1 class="hero-title" data-brush-lines="3">
+            Sprinkle magic on your walls with Pixie Painting!
+          </h1>
+
+          <p class="hero-subtitle">
+            Bring colour to life with our talented painter and decorator. Whether it's a cosy home or a dynamic office, we're here to make your environment truly magical.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="contact.html">Free Quote</a>
+            <a class="btn" href="services.html">See Services</a>
+            <a class="btn ghost" href="about.html">Learn More</a>
+          </div>
+
+          <div class="trust" aria-label="Trust badges">
+            <span class="trust-pill">BCP & Surrounding</span>
+            <span class="trust-pill">Dorset</span>
+            <span class="trust-pill">Hampshire</span>
+          </div>
+        </div>
+
+        <div class="hero-logo">
+          <div class="hero-logo-wrap">
+            <img src="pics/logo0.png" alt="Company logo large" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<div class="section-divider" aria-hidden="true"></div>
+
+
+    <section class="features">
+  <div class="container">
+    <h2 class="section-title">What We Offer</h2>
+
+    <div class="why-grid">
+      <article class="why-card">
+        <span class="material-symbols-outlined why-icon">check_circle</span>
+        <h3>Personal Touch</h3>
+        <p>Every service is delivered with care, attention, and a real human connection.</p>
+      </article>
+
+      <article class="why-card">
+        <span class="material-symbols-outlined why-icon">reviews</span>
+        <h3>Quality First</h3>
+        <p>We focus on quality over quantity, ensuring each experience feels special.</p>
+      </article>
+
+      <article class="why-card">
+        <span class="material-symbols-outlined why-icon">check</span>
+        <h3>Trusted & Warm</h3>
+        <p>Our clients choose us because they feel safe, seen, and understood.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<div class="section-divider--reverse" aria-hidden="true"></div>
+
+
+<section class="why-us">
+  <div class="container">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <!-- <p class="why-us-subtitle">Real reviews from real people — we let our work do the talking.</p> -->
+
+    <div class="reviews-slider" id="reviewsSlider">
+
+      <div class="reviews-viewport">
+        <div class="reviews-track" id="reviewsTrack">
+
+          <!-- Add your review image filenames below -->
+          <figure class="review-slide"><img src="pics/reviews/1.png" alt="Customer review 1" loading="lazy" /></figure>
+          <figure class="review-slide"><img src="pics/reviews/2.png" alt="Customer review 2" loading="lazy" /></figure>
+          <figure class="review-slide"><img src="pics/reviews/3.png" alt="Customer review 3" loading="lazy" /></figure>
+          <figure class="review-slide"><img src="pics/reviews/4.png" alt="Customer review 4" loading="lazy" /></figure>
+          <figure class="review-slide"><img src="pics/reviews/5.png" alt="Customer review 5" loading="lazy" /></figure>
+          <figure class="review-slide"><img src="pics/reviews/6.png" alt="Customer review 6" loading="lazy" /></figure>
+
+        </div>
+      </div>
+
+      <button class="slider-btn slider-btn--prev" id="sliderPrev" aria-label="Previous review">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="slider-btn slider-btn--next" id="sliderNext" aria-label="Next review">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+
+      <div class="slider-dots" id="sliderDots" aria-hidden="true"></div>
+
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+ <footer class="site-footer">
+  <div class="container footer-inner">
+    
+    <div class="footer-content">
+      
+      <!-- Left: Company Info -->
+      <div class="footer-col">
+        <p class="footer-copyright">
+          © <span id="year"></span> Pixie Painting Ltd.<br>
+          <small>All rights reserved.</small>
+        </p>
+      </div>
+
+      <!-- Center: Quick Links -->
+      <div class="footer-col">
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Right: Social only (cleaner) -->
+      <div class="footer-col">
+        <div class="social-icons">
+          <a href="https://instagram.com/pixiepainting_" target="_blank" rel="noopener" aria-label="Follow us on Instagram" class="social-link">
+            <i class="fa-brands fa-instagram" style="color: rgb(241, 64, 108); font-size: 1.65rem;"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Checkatrade Widget -->
+    <div class="checkatrade-widget">
+      <script>window._checkatradeConfig = {"companyId":1177907,"uniqueName":"PixiePainting","theme":"white"};</script>
+      <script src="https://www.checkatrade.com/static/js/widget.js"></script>
+    </div>
+
+    <!-- Developer Credit - Now at the very bottom -->
+    <div class="footer-developer">
+      <p class="developed-by">
+        Website by 
+        <a href="https://www.linkedin.com/in/georgi-asenov-1207501a7/" target="_blank" rel="noopener">Georgi Asenov</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
